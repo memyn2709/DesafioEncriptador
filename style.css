@@ -1,7 +1,7 @@
 body {
     background-color: black;
     background-image: url(imagenes/encriptador.jpg);
-    width: 940px;
+    width: 100%;
     background-position: center;
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
