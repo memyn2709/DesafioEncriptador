@@ -1,0 +1,197 @@
+body {
+    background-color: black;
+    background-image: url(imagenes/encriptador.jpg);
+    width: 940px;
+    background-position: center;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+@media (max-width:600px){
+    body {
+        height: 100%;
+    }
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.caja1{
+    width: 70%;
+    font-family: "Wendy One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width:600px){
+   .caja1 {
+        width: 100%;
+   } 
+}
+
+.caja2 {
+    width: 30%;
+}
+
+@media (max-width:600px){
+    .caja2 {
+        width: 100%;
+    }
+}
+
+.textoInicio {
+    border-radius: 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-size:xx-large;
+    color: blue;
+    font-family: "Wendy One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    width: 90%;
+    height: 400px;
+    
+    text-align: center;
+}
+
+.texto::placeholder {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.respuesta {
+    border-radius: 10px;
+    background-color: lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 90%;
+    height: 400px;
+
+    font-size: 20pt;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: center;
+}
+
+.respuesta:hover {
+    border-color: green;
+}
+
+.texttarea::placeholder {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size:x-large;
+}
+
+@media (max-width:600px) {
+    .respuesta{
+
+        height: 150px;
+    }
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disEncr {
+    display: flex;
+    align-items: center;
+}
+
+.encriptar {
+    background-color: darkblue;
+    border-radius: 10px;
+    color: greenyellow;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 10px;
+    border-color: lightblue;
+    cursor: pointer;
+}
+
+.disDese {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px){
+    .disDese {
+        padding: 10px;
+    } 
+}
+
+.desencriptar {
+    background-color: darkred;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 10px;
+    border-color:red;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .desencriptar {
+        text-align: 10px 30px;
+    }
+}
+
+.copiar {
+    border-radius: 10px;
+    background-color: lawngreen;
+    color: darkblue;
+    font-family: "Lexend", sans-serif;
+    padding: 5px 40px;
+}
+
+.copiar:hover {
+    border-color: red;
+}
+
+.creado h1 {
+    color: white;
+    font-size: small;
+    font-style: normal;
+}
+
+.creado h2 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    
+        <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Bungee+Spice&family=Caveat+Brush&family=Lexend&family=Protest+Riot&family=Slackey&family=Wendy+One&display=swap" rel="stylesheet">
+        
+    </head>
+        <main>
+                <header><strong>Desafio Encriptador</strong></header>
+
+            <body>
+                <div class="box">
+
+                    <div class="caja1">
+                        <textarea 
+                            name="textoinicio"
+                            id="textoInicio"
+                            class="textoInicio"
+                            type="text" 
+                            placeholder="Teclea el texto a Codificar..."></textarea>
+                    </div>
+
+                    <div class="caja2"> 
+                        <textarea 
+                            name="respuesta" 
+                            id="respuesta"
+                            class="respuesta"
+                            placeholder="La Decodificación es..."
+                            ></textarea>
+
+                        <button onclick="portapapeles('texttarea')" type="button" class="copiar">Copiar</button>
+                    </div>
+
+                </div> 
+
+                <div class="botones">
+                    <div class="disEncr">
+                        <button type="button" class="encriptar"  onclick="enCRIptar()">Encriptar</button>
+                    </div>
+                    <div class="disDese">
+                        <button type="button" class="desencriptar"  onclick="deSENcriptar()">Desencriptar</button>   
+
+                    </div>
+                </div>
+                <div class="creado">
+                    <h1>Realizado por:</h1>
+                    <h2>Guillermo Ojeda / memyn2709</h2>
+                </div>
+            </body>
+        </main>
+            <script src="app.js"></script>
+    </html>
